@@ -3,6 +3,7 @@
 let count = 0;
 
 const getData = () => {
+    //calls an api and get data
     console.log ("fetching data..", count++);
 }
 
