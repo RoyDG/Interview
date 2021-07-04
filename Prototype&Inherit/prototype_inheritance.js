@@ -13,3 +13,17 @@ let object = {
 function fun(){
     //
 }
+
+//putting mybind method into prototype which can be inherit (access) to other functions or methods
+
+Function.prototype.mybind = function() {
+    console.log("happy coding")
+}
+
+function fun () {
+    
+}
+function fun2 () {
+    
+}
+//if you type fun.mybind it will show happy coding
